@@ -1,0 +1,28 @@
+.App {
+  font-family: sans-serif;
+}
+.nav {
+  padding: 10px;
+}
+.nav button {
+  padding: 5px;
+  margin: 5px;
+  background: grey;
+  color: lightgray;
+  cursor: pointer;
+}
+.nav button:hover {
+  background: rgb(32, 32, 32);
+}
+.nav button.active {
+  background: black;
+}
+.tab {
+  padding: 10px;
+}
+.tab.tab-a {
+  background-color: lightblue;
+}
+.tab.tab-b {
+  background-color: lightpink;
+}
